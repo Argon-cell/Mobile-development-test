@@ -7,43 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78382CCC2837766B0030E9A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78382CCB2837766B0030E9A0 /* GoogleService-Info.plist */; };
+		78561558283777C600AC013B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 78561557283777C600AC013B /* FirebaseDatabase */; };
+		7856155A283777C600AC013B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 78561559283777C600AC013B /* FirebaseFirestore */; };
 		789B2A22282E0058000256FF /* Mobile_development_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789B2A21282E0058000256FF /* Mobile_development_testApp.swift */; };
 		789B2A24282E0058000256FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789B2A23282E0058000256FF /* ContentView.swift */; };
 		789B2A26282E005B000256FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789B2A25282E005B000256FF /* Assets.xcassets */; };
 		789B2A29282E005B000256FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789B2A28282E005B000256FF /* Preview Assets.xcassets */; };
-		789B2A33282E005B000256FF /* Mobile_development_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789B2A32282E005B000256FF /* Mobile_development_testTests.swift */; };
-		789B2A3D282E005B000256FF /* Mobile_development_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789B2A3C282E005B000256FF /* Mobile_development_testUITests.swift */; };
-		789B2A3F282E005B000256FF /* Mobile_development_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789B2A3E282E005B000256FF /* Mobile_development_testUITestsLaunchTests.swift */; };
+		789B2A53282E156E000256FF /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789B2A52282E156E000256FF /* AppViewModel.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		789B2A2F282E005B000256FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 789B2A16282E0058000256FF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 789B2A1D282E0058000256FF;
-			remoteInfo = "Mobile development test";
-		};
-		789B2A39282E005B000256FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 789B2A16282E0058000256FF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 789B2A1D282E0058000256FF;
-			remoteInfo = "Mobile development test";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		78382CCB2837766B0030E9A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		789B2A1E282E0058000256FF /* Mobile development test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile development test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		789B2A21282E0058000256FF /* Mobile_development_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_development_testApp.swift; sourceTree = "<group>"; };
 		789B2A23282E0058000256FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		789B2A25282E005B000256FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		789B2A28282E005B000256FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		789B2A2E282E005B000256FF /* Mobile development testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile development testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		789B2A32282E005B000256FF /* Mobile_development_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_development_testTests.swift; sourceTree = "<group>"; };
-		789B2A38282E005B000256FF /* Mobile development testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile development testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		789B2A3C282E005B000256FF /* Mobile_development_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_development_testUITests.swift; sourceTree = "<group>"; };
-		789B2A3E282E005B000256FF /* Mobile_development_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_development_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		789B2A52282E156E000256FF /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +32,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		789B2A2B282E005B000256FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		789B2A35282E005B000256FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				78561558283777C600AC013B /* FirebaseDatabase in Frameworks */,
+				7856155A283777C600AC013B /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				789B2A20282E0058000256FF /* Mobile development test */,
-				789B2A31282E005B000256FF /* Mobile development testTests */,
-				789B2A3B282E005B000256FF /* Mobile development testUITests */,
 				789B2A1F282E0058000256FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				789B2A1E282E0058000256FF /* Mobile development test.app */,
-				789B2A2E282E005B000256FF /* Mobile development testTests.xctest */,
-				789B2A38282E005B000256FF /* Mobile development testUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				789B2A21282E0058000256FF /* Mobile_development_testApp.swift */,
+				78382CCB2837766B0030E9A0 /* GoogleService-Info.plist */,
 				789B2A23282E0058000256FF /* ContentView.swift */,
 				789B2A25282E005B000256FF /* Assets.xcassets */,
 				789B2A27282E005B000256FF /* Preview Content */,
+				789B2A52282E156E000256FF /* AppViewModel.swift */,
 			);
 			path = "Mobile development test";
 			sourceTree = "<group>";
@@ -108,23 +75,6 @@
 				789B2A28282E005B000256FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		789B2A31282E005B000256FF /* Mobile development testTests */ = {
-			isa = PBXGroup;
-			children = (
-				789B2A32282E005B000256FF /* Mobile_development_testTests.swift */,
-			);
-			path = "Mobile development testTests";
-			sourceTree = "<group>";
-		};
-		789B2A3B282E005B000256FF /* Mobile development testUITests */ = {
-			isa = PBXGroup;
-			children = (
-				789B2A3C282E005B000256FF /* Mobile_development_testUITests.swift */,
-				789B2A3E282E005B000256FF /* Mobile_development_testUITestsLaunchTests.swift */,
-			);
-			path = "Mobile development testUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,45 +93,13 @@
 			dependencies = (
 			);
 			name = "Mobile development test";
+			packageProductDependencies = (
+				78561557283777C600AC013B /* FirebaseDatabase */,
+				78561559283777C600AC013B /* FirebaseFirestore */,
+			);
 			productName = "Mobile development test";
 			productReference = 789B2A1E282E0058000256FF /* Mobile development test.app */;
 			productType = "com.apple.product-type.application";
-		};
-		789B2A2D282E005B000256FF /* Mobile development testTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 789B2A45282E005B000256FF /* Build configuration list for PBXNativeTarget "Mobile development testTests" */;
-			buildPhases = (
-				789B2A2A282E005B000256FF /* Sources */,
-				789B2A2B282E005B000256FF /* Frameworks */,
-				789B2A2C282E005B000256FF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				789B2A30282E005B000256FF /* PBXTargetDependency */,
-			);
-			name = "Mobile development testTests";
-			productName = "Mobile development testTests";
-			productReference = 789B2A2E282E005B000256FF /* Mobile development testTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		789B2A37282E005B000256FF /* Mobile development testUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 789B2A48282E005B000256FF /* Build configuration list for PBXNativeTarget "Mobile development testUITests" */;
-			buildPhases = (
-				789B2A34282E005B000256FF /* Sources */,
-				789B2A35282E005B000256FF /* Frameworks */,
-				789B2A36282E005B000256FF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				789B2A3A282E005B000256FF /* PBXTargetDependency */,
-			);
-			name = "Mobile development testUITests";
-			productName = "Mobile development testUITests";
-			productReference = 789B2A38282E005B000256FF /* Mobile development testUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +114,6 @@
 					789B2A1D282E0058000256FF = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
-					789B2A2D282E005B000256FF = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 789B2A1D282E0058000256FF;
-					};
-					789B2A37282E005B000256FF = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 789B2A1D282E0058000256FF;
-					};
 				};
 			};
 			buildConfigurationList = 789B2A19282E0058000256FF /* Build configuration list for PBXProject "Mobile development test" */;
@@ -215,13 +125,14 @@
 				Base,
 			);
 			mainGroup = 789B2A15282E0058000256FF;
+			packageReferences = (
+				78561556283777C600AC013B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 789B2A1F282E0058000256FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				789B2A1D282E0058000256FF /* Mobile development test */,
-				789B2A2D282E005B000256FF /* Mobile development testTests */,
-				789B2A37282E005B000256FF /* Mobile development testUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,21 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				789B2A29282E005B000256FF /* Preview Assets.xcassets in Resources */,
+				78382CCC2837766B0030E9A0 /* GoogleService-Info.plist in Resources */,
 				789B2A26282E005B000256FF /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		789B2A2C282E005B000256FF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		789B2A36282E005B000256FF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,40 +157,11 @@
 			files = (
 				789B2A24282E0058000256FF /* ContentView.swift in Sources */,
 				789B2A22282E0058000256FF /* Mobile_development_testApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		789B2A2A282E005B000256FF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				789B2A33282E005B000256FF /* Mobile_development_testTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		789B2A34282E005B000256FF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				789B2A3F282E005B000256FF /* Mobile_development_testUITestsLaunchTests.swift in Sources */,
-				789B2A3D282E005B000256FF /* Mobile_development_testUITests.swift in Sources */,
+				789B2A53282E156E000256FF /* AppViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		789B2A30282E005B000256FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 789B2A1D282E0058000256FF /* Mobile development test */;
-			targetProxy = 789B2A2F282E005B000256FF /* PBXContainerItemProxy */;
-		};
-		789B2A3A282E005B000256FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 789B2A1D282E0058000256FF /* Mobile development test */;
-			targetProxy = 789B2A39282E005B000256FF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		789B2A40282E005B000256FF /* Debug */ = {
@@ -345,7 +214,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -467,82 +336,6 @@
 			};
 			name = Release;
 		};
-		789B2A46282E005B000256FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F7C5X72NM7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.definex.Mobile-development-testTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile development test.app/Mobile development test";
-			};
-			name = Debug;
-		};
-		789B2A47282E005B000256FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F7C5X72NM7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.definex.Mobile-development-testTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile development test.app/Mobile development test";
-			};
-			name = Release;
-		};
-		789B2A49282E005B000256FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F7C5X72NM7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.definex.Mobile-development-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Mobile development test";
-			};
-			name = Debug;
-		};
-		789B2A4A282E005B000256FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F7C5X72NM7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.definex.Mobile-development-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Mobile development test";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,25 +357,31 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		789B2A45282E005B000256FF /* Build configuration list for PBXNativeTarget "Mobile development testTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				789B2A46282E005B000256FF /* Debug */,
-				789B2A47282E005B000256FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		789B2A48282E005B000256FF /* Build configuration list for PBXNativeTarget "Mobile development testUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				789B2A49282E005B000256FF /* Debug */,
-				789B2A4A282E005B000256FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78561556283777C600AC013B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 8.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78561557283777C600AC013B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78561556283777C600AC013B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		78561559283777C600AC013B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78561556283777C600AC013B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 789B2A16282E0058000256FF /* Project object */;
 }
